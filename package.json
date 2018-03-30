@@ -1,0 +1,44 @@
+{
+  "name": "authentication-experiment",
+  "version": "1.0.0",
+  "description": "authentication-experiment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaneu/authentication-experiment.git"
+  },
+  "keywords": [
+    "authentication",
+    "passport",
+    "node",
+    "express"
+  ],
+  "author": "Shane Unger",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shaneu/authentication-experiment/issues"
+  },
+  "homepage": "https://github.com/shaneu/authentication-experiment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.2",
+    "dotenv": "^5.0.1",
+    "eslint-config-eslint-prettier": "^1.0.1",
+    "start-server-webpack-plugin": "^2.2.5",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
